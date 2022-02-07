@@ -1,0 +1,84 @@
+
+.Modal {
+    font-family: 'Playfair Display', serif;
+}
+
+.addModalClose {
+
+    border: none!important;
+    color: darkslategrey !important;
+    background-color: transparent !important;
+    font-weight: bold;
+
+}
+
+/* Queen St. Market Logo */
+.modalPic,
+.modalPicQuery {
+    width: 80vw;
+}
+
+.greatTaste {
+    font-size: 2rem;
+}
+
+
+.signUpModalLink,
+.logInModalLink {
+    border: none!important;
+    color: darkslategrey !important;
+    background-color: transparent !important;
+}
+
+.signUpModalLink:hover,
+.logInModalLink:hover {
+text-decoration: underline !important;
+font-size: 1.1rem;
+cursor: pointer;
+}
+
+Button {
+cursor: pointer;
+}
+
+
+@media (max-width: 500px) {
+
+    .Modal {
+        width: 99vw !important;
+    }
+
+    .modal-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .modalPic {
+        width: 100% !important;
+    }
+
+    .itemAdded {
+        padding: 0 3vw 0 3vw;
+    }
+
+    .modalPicQuery {
+        max-height: 40vh !important;
+    }
+
+    .greatTaste {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 501px) {
+    .Modal {
+        width: 95vw !important;
+    }
+
+    .modalPicQuery {
+        max-height: 40vh !important;
+    }
+
+
+}

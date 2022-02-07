@@ -1,0 +1,43 @@
+
+
+.signUpContainer {
+    max-width: 70vw !important;
+}
+
+
+
+.signUpForm {
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+}
+
+
+.submitSignUp {
+    background-color: darkslategrey !important;
+    border: none !important;
+}
+
+.goToLogIn {
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+
+}
+
+
+@media (max-width: 640px) {
+
+    .signUpContainer {
+        max-width: 70vw !important;
+    }
+    
+    .switch {
+        font-size: .75rem;
+        margin-left: 1vw !important;
+    }
+
+    .first,
+    .last {
+        font-size: .8rem !important;
+    }
+
+}

@@ -1,0 +1,18 @@
+
+.logInForm {
+    font-family: 'Playfair Display', serif;
+    z-index: 100;
+}
+
+
+.login{
+    color: white !important;
+    border-color: darkslategrey !important;
+    background-color: darkslategrey !important;
+}
+
+.signUp {
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;
+}
+
